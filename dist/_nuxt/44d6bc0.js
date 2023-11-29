@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{278:function(t,n,e){"use strict";e.r(n);var o=e(274),r=(e(275),{name:"Jodit",mounted:function(){new o.Jodit("#editor")}}),d=e(30),component=Object(d.a)(r,(function(){return(0,this._self._c)("textarea",{attrs:{id:"editor"}})}),[],!1,null,null,null);n.default=component.exports}}]);
