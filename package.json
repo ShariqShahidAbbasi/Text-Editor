@@ -1,0 +1,24 @@
+{
+  "name": "editor-testing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.0.1",
+    "core-js": "^3.25.3",
+    "jodit": "^3.4.29",
+    "nuxt": "^2.15.8",
+    "summernote": "^0.8.18",
+    "vue": "^2.7.10",
+    "vue-quill-editor": "^3.0.6",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vue2-editor": "^2.10.3",
+    "vue2-quill-editor": "^2.0.26"
+  }
+}
