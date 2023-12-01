@@ -1,8 +1,8 @@
 <template>
-  <a-layout>
-    <a-layout-header><Home /></a-layout-header>
-    <a-layout-content><Nuxt /></a-layout-content>
-  </a-layout>
+  <layout>
+    <layout-header><Home /></layout-header>
+    <layout-content><Nuxt /></layout-content>
+  </layout>
 </template>
 
 

@@ -3,14 +3,25 @@
     <div>
       <h1 style="text-align: center">Tiny</h1>
       <!-- <h4>Not Working</h4> -->
-      <Tiny />
+      <!-- <Tiny /> -->
+      <new-tiny :newConfig="okay" />
     </div>
     <hr />
   </div>
 </template>
 
 <script>
-export default {};
+import newTiny from "@/components/Tiny/newTiny.vue";
+export default {
+  components: {
+    newTiny,
+  },
+  data() {
+    return {
+      okay: "asdas",
+    };
+  },
+};
 </script>
 
 <style>

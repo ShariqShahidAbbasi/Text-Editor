@@ -19,15 +19,15 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { href: "https://cdn.quilljs.com/1.3.6/quill.snow.css", rel: "stylesheet" }
+      { href: "https://cdn.quilljs.com/1.3.6/quill.snow.css", rel: "stylesheet" },
       // {
       //   rel: "stylesheet",
-      //   href: "https://cdnjs.cloudflare.com/ajax/libs/jodit/4.0.0-beta.24/es2021/jodit.min.css"
+      //   href: "//cdnjs.cloudflare.com/ajax/libs/jodit/4.0.0-beta.111/jodit.min.css"
       // }
     ],
     script: [
       { src: "https://cdn.quilljs.com/1.3.6/quill.js" },
-      { type: "text/javascript", src: "//js.nicedit.com/nicEdit-latest.js" }
+      { type: "text/javascript", src: "//js.nicedit.com/nicEdit-latest.js" },
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,6 +36,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // '~/plugins/index.js',
+    // '~/plugins/jodit.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
